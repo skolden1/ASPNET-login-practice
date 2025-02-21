@@ -1,0 +1,58 @@
+﻿.bodyRegister{
+    background-color: midnightblue;
+}
+
+h1 {
+    color: azure;
+    margin-bottom: 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.MinContainer {
+    background-color: #171719;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+button{
+    padding: 12px;
+    color: snow;
+    background-color: cornflowerblue;
+    border: none;
+    width: 120px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+label{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 40px;
+    border-radius: 7px;
+}
+
+.validation-message {
+    color: red;
+    font-size: 14px;
+    display: block; 
+    margin-top: 5px;
+}
+
+.field-validation-valid {
+    display: none;
+}

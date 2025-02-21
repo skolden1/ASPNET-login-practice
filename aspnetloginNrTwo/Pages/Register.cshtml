@@ -1,0 +1,30 @@
+﻿@page
+@model aspnetloginNrTwo.Pages.RegisterModel
+@{
+}
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Register</title>
+    <link rel="stylesheet" href="~/css/LoginNRegister.css" />
+    </head>
+    <body class="bodyRegister">
+     <div class="MinContainer">
+         <h1>Register!</h1>
+         <form method="post">
+            <label for="Username">Username</label>
+            <span asp-validation-for="UserName" class="validation-message"></span>
+            <input type="text" id="Username" name="UserName"/>
+
+            <label for="pw">Password</label>
+            <input type="password" id="pw" name="Pw"/>
+
+            <label for="pw">Repeat password</label>
+            <span asp-validation-for="Pw" class="validation-message">Wrong password</span>
+            <input type="password" id="pw" name="RepeatPw"/>
+
+            <button type="submit">Register</button>
+         </form>
+     </div>
+    </body>
+    </html>
